@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+
+    <test name="Auth Test">
+        <classes>
+            <class name="com.nurfadilla.tests.AuthTest"/>
+        </classes>
+    </test>
+
+    <test name="Student Test">
+        <classes>
+            <class name="com.nurfadilla.tests.StudentTest"/>
+        </classes>
+    </test>
+
+</suite>
